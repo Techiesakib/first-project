@@ -1,3 +1,27 @@
-h5{
-    color: aqua;
+*{
+    margin: 0;
+    padding: 0;
+}
+.full-content{
+    margin: auto;
+    height:600px;
+    max-width: 1200px;
+    background-color: aqua;
+}
+.header{
+    background-color: blueviolet;
+}
+ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+ul li a{
+    padding: 20px 80px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+}
+ul li a:hover{
+    color: cyan;
+    background: darkblue;
 }
